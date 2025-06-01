@@ -1,57 +1,61 @@
 <!DOCTYPE html>
-<!-- Declares this as an HTML5 document - must be the first line in all HTML files -->
-
 <html lang="en">
-<!-- Root element wrapping all content, with language set to English for accessibility -->
-
 <head>
-<!-- Container for meta-information that isn't displayed but is crucial for the document -->
-
-  <meta charset="UTF-8">
-  <!-- Specifies character encoding as UTF-8 to handle all Unicode characters properly -->
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Ensures proper responsive behavior on mobile devices by setting viewport dimensions -->
-
-  <title>My First Webpage</title>
-  <!-- Defines the title that appears in browser tabs and search engine results -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
 </head>
-
 <body>
-<!-- Contains all visible content that users will see in their browser window -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-  <h1>Welcome to My First Webpage!</h1>
-  <!-- Primary heading (level 1) - should be used once per page as the main title -->
+    <main>
+        <article>
+            <!-- Contains all visible content that users will see in their browser window -->
 
-  <h2>About This Page</h2>
-  <!-- Secondary heading (level 2) - used for major section headings -->
+            <h1>Welcome to My First Webpage!</h1>
+            <!-- Primary heading (level 1) - should be used once per page as the main title -->
 
-  <h3>Created as part of ALX HTML Basics</h3>
-  <!-- Tertiary heading (level 3) - used for subsections under h2 elements -->
+            <h2>About This Page</h2>
+            <!-- Secondary heading (level 2) - used for major section headings -->
 
-  <p>This is my first attempt at creating a webpage using HTML.</p>
-  <!-- Paragraph element for blocks of text - browser adds spacing automatically -->
+            <h3>Created as part of ALX HTML Basics</h3>
+            <!-- Tertiary heading (level 3) - used for subsections under h2 elements -->
 
-  <p>HTML stands for HyperText Markup Language and is the standard language for creating web pages.</p>
-  <!-- Another paragraph explaining what HTML is -->
+            <p>This is my first attempt at creating a webpage using HTML.</p>
+            <!-- Paragraph element for blocks of text - browser adds spacing automatically -->
 
-  <p>I'm learning how to structure content, add headings, and embed images.</p>
-  <!-- Describes current learning objectives -->
+            <p>HTML stands for HyperText Markup Language and is the standard language for creating web pages.</p>
+            <!-- Another paragraph explaining what HTML is -->
 
-  <p>Stay tuned for more updates as I progress!</p>
-  <!-- Closing paragraph with forward-looking statement -->
+            <p>I'm learning how to structure content, add headings, and embed images.</p>
+            <!-- Describes current learning objectives -->
 
-  <a href="https://www.alxafrica.com" target="_blank">
-  <!-- Anchor element creating hyperlink to ALX website that opens in new tab -->
-    <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Africa Logo">
-    <!-- Image element with:
-         src - image source URL
-         alt - descriptive text for accessibility -->
-  </a>
-  <!-- Closing tag for the anchor element -->
+            <p>Stay tuned for more updates as I progress!</p>
+            <!-- Closing paragraph with forward-looking statement -->
 
+            <a href="https://www.alxafrica.com" target="_blank">
+            <!-- Anchor element creating hyperlink to ALX website that opens in new tab -->
+                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Africa Logo">
+                <!-- Image element with:
+                    src - image source URL
+                    alt - descriptive text for accessibility -->
+            </a>
+            <!-- Closing tag for the anchor element -->
+            <p>Check out my <a href="tweets.html">tweets page</a>!</p>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Your Name - <a href="https://www.alxafrica.com" target="_blank">here</a></p>
+    </footer>
 </body>
-<!-- End of visible document content -->
-
 </html>
-<!-- Closing tag for the root HTML element -->
